@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
   console.log('messageDiv', messageDiv)
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:8000/', {
+  const response = await fetch('https://cypherxai.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
